@@ -1,0 +1,44 @@
+.keyboardCont {
+  height: 10rem;
+  display: flex;
+}
+
+.octaveCont {
+  width: 15rem;
+  position: relative;
+}
+
+.whiteKeyCont {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: stretch;
+}
+
+.whiteKey {
+  flex: 1;
+  padding: 0;
+}
+
+.blackKeyCont {
+  display: flex;
+  position: absolute;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+  align-items: stretch;
+  pointer-events: none;
+}
+
+.blackKey {
+  background-color: black;
+  height: 50%;
+  flex: 1;
+  padding: 0;
+  pointer-events: all;
+}
+
+.ghostKey {
+  flex: 0.5;
+}
